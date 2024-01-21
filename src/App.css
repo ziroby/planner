@@ -37,3 +37,8 @@
   flex-direction: row;
   justify-content: right;
 }
+
+.medlist {
+  margin: 5px;
+  padding: 5px;
+}
