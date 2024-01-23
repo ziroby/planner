@@ -1,3 +1,10 @@
+# Ziroby's Planner
+
+This is a React app to create a planner optimised for my personal usage.
+
+Feel free to fork this and develop your own personalised planner.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
