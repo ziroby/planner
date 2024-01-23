@@ -1,4 +1,6 @@
 import MedList from "./MedList";
+import MoodDiary from "./MoodDiary";
+import MoodDiaryBlanks from "./MoodDiaryBlanks";
 import MoonPhase from "./MoonPhase";
 import TaskList from "./TaskList";
 
@@ -16,6 +18,8 @@ export default function Panel({ width, height, date }) {
         </div>
         <div class="tasklistrow">
             <MedList />
+            <MoodDiaryBlanks/>
+            <MoodDiary/>
         </div>
     </div>
 }

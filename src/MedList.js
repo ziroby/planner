@@ -1,10 +1,8 @@
 import "./App.css"
 
 export default function MedList() {
+    var checkListItems=["Early morning", "Lunch", "Post-Lunch", "Evening"]
     return <div class="medlist">
-        ○ Early morning<br/>
-        ○ Lunch<br/>
-        ○ Post-Lunch<br/>
-        ○ Evening<br/>
+        {checkListItems.map(item => <div><big>□</big> {item}</div>)}
     </div>
 }

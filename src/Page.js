@@ -23,8 +23,8 @@ export default function Page() {
 
     return <div >
         <div class="page">
-            <Panel width={width / 2} height={height} title="Work" date={date} />
-            <Panel width={width / 2} height={height} title="Home" date={date.addDays(4)}/>
+            <Panel width={width / 2} height={height} title="Work" date={date.addDays(1)} />
+            <Panel width={width / 2} height={height} title="Home" date={date.addDays(2)}/>
         </div>
     </div>
 }
