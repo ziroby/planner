@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: row;
   justify-content: right;
+  page-break-before: always;
 }
 
 .medlist {
@@ -78,5 +79,9 @@
   border-color: lightgray;
   border-style: solid;
   border-width: 0;
-  border-bottom-width: 1px;
+  border-bottom-width: 2.4px;
+}
+
+.mooddiaryblanks p.last{
+  margin-bottom: 0;
 }
