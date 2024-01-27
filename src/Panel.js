@@ -14,8 +14,8 @@ export default function Panel({ width, height, date }) {
             <div class="date">
                 {date.toLocaleDateString('en-us', { weekday: "short", year: "numeric", month: "short", day: "numeric" })}
             </div>
-            <SunTimes  date={date} lat={lat} lon={lon}/>
-            <MoonPhase date={date}/>
+            <SunTimes date={date} lat={lat} lon={lon} />
+            <MoonPhase date={date} />
         </div>
         <div class="tasklistrow">
             <TaskList width={width / 2.5} height={height / 2} title="Home" />
@@ -23,8 +23,8 @@ export default function Panel({ width, height, date }) {
         </div>
         <div class="tasklistrow">
             <MedList />
-            <MoodDiaryBlanks/>
-            <MoodDiary/>
+            <MoodDiaryBlanks width={width / 2.4} />
+            <MoodDiary />
         </div>
     </div>
 }

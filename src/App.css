@@ -1,21 +1,10 @@
-.App {
-  /* text-align: center; */
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+@media print {
+  body{
+      width: 21cm;
+      height: 29.7cm;
+      margin: 30mm 45mm 30mm 45mm; 
+      /* change the margins as you want them to be. */
+ } 
 }
 
 .tasklistrow {
@@ -24,10 +13,10 @@
   justify-content: right;
 }
 .tasklist {
-  margin: 5px;
+  margin: 5pt;
   border-style: solid;
   border-color: lightgray;
-  padding: 5px;
+  padding: 5pt;
   display: flex;
   flex-direction: column;
 }
@@ -40,19 +29,19 @@
 }
 
 .medlist {
-  margin: 5px;
-  padding: 5px;
+  margin: 5pt;
+  padding: 5pt;
 }
 
 .date {
-  margin: 10px;
-  margin-left: 30px;
+  margin: 10pt;
+  margin-left: 30pt;
   font-weight: bold;
   font-size: larger;
 }
 
 .moonphase {
-  margin: 10px;
+  margin: 10pt;
 }
 
 .daterow {
@@ -61,15 +50,19 @@
   justify-content: space-between;
 }
 
+.panel {
+  width: 100vw;
+  min-width: 100vw;
+}
+
 .mooddiary,.mooddiary p {
   border-style: none;
 }
 
 .mooddiaryblanks {
-  margin: 10px;
+  margin: 10pt;
   border-style: solid;
-  min-width: 200px;
-  /* min-height: 120px; */
+  /* min-height: 120pt; */
   flex-wrap: auto;
   border-color: lightgray;
   
@@ -79,7 +72,7 @@
   border-color: lightgray;
   border-style: solid;
   border-width: 0;
-  border-bottom-width: 2.4px;
+  border-bottom-width: 2.4pt;
 }
 
 .mooddiaryblanks p.last{
