@@ -1,4 +1,6 @@
-@media print {
+
+
+@page print {
   body{
       width: 21cm;
       height: 29.7cm;
@@ -26,6 +28,7 @@
   flex-direction: row;
   justify-content: right;
   page-break-before: always;
+  align-items: flex-start;
 }
 
 .medlist {

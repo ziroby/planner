@@ -25,8 +25,8 @@ export default class Page extends React.Component {
 
         return <div >
             <div class="page">
-                <Panel height={height} width={width/2} date={date.addDays(0)} />
-                <Panel height={height} width={width/2} date={date.addDays(1)} />
+                <Panel height={height} width={width/2} date={date.addDays(2)} />
+                <Panel height={height} width={width/2} date={date.addDays(3)} />
             </div>
             {/* <div class="page">  */}
             {/* <Panel width={width / 2} height={height} date={date.addDays(3)} /> */}
