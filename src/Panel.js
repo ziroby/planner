@@ -11,9 +11,9 @@ const lon = 0.4154
 export default function Panel({ width, height, date }) {
     return <div className="panel" style={{ minWidth: width }}>
         <div className="daterow">
-            <div className="date">
+            <span className="date">
                 {date.toLocaleDateString('en-us', { weekday: "short", year: "numeric", month: "short", day: "numeric" })}
-            </div>
+            </span>
             <SunTimes date={date} lat={lat} lon={lon} />
             <MoonPhase date={date} />
         </div>

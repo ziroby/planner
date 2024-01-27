@@ -7,5 +7,5 @@ export default function SunTimes({date, lat, lon}) {
     return <table><tbody>
         <tr><td>sunrise:</td><td>{times.sunrise.getHours() + ":" + times.sunrise.getMinutes()}</td></tr>
         <tr><td>sunset:</td><td>{times.sunset.getHours() + ":" + times.sunset.getMinutes()}</td></tr>
-        </tbody></table>
+    </tbody></table>
 }

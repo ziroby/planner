@@ -43,10 +43,6 @@
   font-size: larger;
 }
 
-.moonphase {
-  margin: 10pt;
-}
-
 .daterow {
   display: flex;
   flex-direction: left;
