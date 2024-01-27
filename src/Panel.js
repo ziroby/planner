@@ -9,19 +9,19 @@ const lat = 51.8855
 const lon = 0.4154
 
 export default function Panel({ width, height, date }) {
-    return <div class="panel" style={{ minWidth: width }}>
-        <div class="daterow">
-            <div class="date">
+    return <div className="panel" style={{ minWidth: width }}>
+        <div className="daterow">
+            <div className="date">
                 {date.toLocaleDateString('en-us', { weekday: "short", year: "numeric", month: "short", day: "numeric" })}
             </div>
             <SunTimes date={date} lat={lat} lon={lon} />
             <MoonPhase date={date} />
         </div>
-        <div class="tasklistrow">
+        <div className="tasklistrow">
             <TaskList width={width / 2.5} height={height / 2} title="Home" />
             <TaskList width={width / 2.5} height={height / 2} title="Work" />
         </div>
-        <div class="tasklistrow">
+        <div className="tasklistrow">
             <MedList />
             <MoodDiaryBlanks width={width / 2.4} />
             <MoodDiary />

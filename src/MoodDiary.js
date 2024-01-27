@@ -1,9 +1,9 @@
 import "./App.css"
 
 export default function MoodDiary() {
-    return <div class="mooddiary">
+    return <div className="mooddiary">
         <p>Morning</p>
         <p>Afternoon</p>
-        <p class="last">Evening</p>
+        <p className="last">Evening</p>
     </div>
 }
