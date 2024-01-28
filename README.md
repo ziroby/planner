@@ -2,6 +2,10 @@
 
 This is a React app to create a planner optimised for my personal usage.
 
+It currently provides work and home to-do lists, a med list, blanks for mood journalling (morning, afternoon, and evening), plus the current sunrise and sunset times (for a hard-coded location) and moon phases.
+
+This is a React app, with some inline SVG for the task lines.
+
 Feel free to fork this and develop your own personalised planner.
 
 
